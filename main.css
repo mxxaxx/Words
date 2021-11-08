@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+
+    color:#111111;
+    background: linear-gradient(160deg, #131212, #24042c,#06086d);
+}
+#clicker{
+    position:relative;
+    margin-left: 20%;
+    margin-right: 20%;
+    width:60%;
+    margin-top: 12.5vh;
+    margin-bottom: 12.5vh;
+    height:75vh;
+    border:none;
+    background: #e28743;
+    border-radius: 10%;
+
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:5vh;
+}
