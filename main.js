@@ -113,7 +113,7 @@ function nextword(){
     wordIndex=wordIndex+1
 
     document.getElementById("word").textContent=words[wordIndex]
-    setTimeout(nextword, 1000)
+    setTimeout(nextword, 86400000 )
 
 }
-setTimeout(nextword, 1000)
+setTimeout(nextword, 86400000 )
