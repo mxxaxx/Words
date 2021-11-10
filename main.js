@@ -103,7 +103,7 @@ function getdefinition(){
         document.getElementById("word").style.fontSize = "3vh"
     }
 }
-var wordIndex = 0;
+var wordIndex = 2;
 const words = ["Acquiesce", "Aberration", "Abjure", "Abrogate", "Anachronism", "Anathema", "Antebellum", "Anthropogenic", "Antithesis", "Bellicose", "Chicanery", "Chthonic",
 "Cerulean", "Circumspect", "Circumlocution", "Cogent", "Colloquial", "Crepuscular", "Deleterious", "Depredation", "Didactic", "Egregious", "Enervate", "Entomophagy", "Epiphany",
 "Eschatology","Eschatology", "Eschew", "Evanescent", "Fatuous", "Fiduciary", "Filibuster", "Fulminate","Hegemony","Homonym","Hubris","Inculcate","Juxtaposition","Jejune",
@@ -113,7 +113,7 @@ function nextword(){
     wordIndex=wordIndex+1
 
     document.getElementById("word").textContent=words[wordIndex]
-    setTimeout(nextword, 86400000 )
+    setTimeout(nextword, 1000 )
 
 }
-setTimeout(nextword, 86400000 )
+setTimeout(nextword, 10000 )
