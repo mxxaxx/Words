@@ -113,7 +113,6 @@ function nextword(){
     wordIndex=wordIndex+1
 
     document.getElementById("word").textContent=words[wordIndex]
-    setTimeout(nextword, 86400000)
 
 }
 var abcdefghij = setInterval(nextword, 86400000)
