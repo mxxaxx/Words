@@ -116,4 +116,4 @@ function nextword(){
     setTimeout(nextword, 1000 )
 
 }
-setTimeout(nextword, 10000 )
+nextword()
