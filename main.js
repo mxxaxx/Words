@@ -115,4 +115,4 @@ function nextword(){
     document.getElementById("word").textContent=words[wordIndex]
 
 }
-var abcdefghij = setInterval(nextword, 86400000)
+var abcdefghij = setInterval(nextword, 10000)
