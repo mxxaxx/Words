@@ -116,4 +116,4 @@ function nextword(){
     setTimeout(nextword, 1000 )
 
 }
-nextword()
+var abcdefghij = setInterval(nextword, 1000)
