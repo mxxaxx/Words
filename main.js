@@ -109,10 +109,3 @@ const words = ["Acquiesce", "Aberration", "Abjure", "Abrogate", "Anachronism", "
 "Eschatology","Eschatology", "Eschew", "Evanescent", "Fatuous", "Fiduciary", "Filibuster", "Fulminate","Hegemony","Homonym","Hubris","Inculcate","Juxtaposition","Jejune",
 "Lionize","Lucubration", "Magnanimous","Moiety","Nihilism","Nomenclature","Paucity"
 ]
-function nextword(){
-    wordIndex=wordIndex+1
-
-    document.getElementById("word").textContent=words[wordIndex]
-
-}
-==
